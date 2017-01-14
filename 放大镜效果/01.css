@@ -1,0 +1,39 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+#div{
+	margin:100px;
+	width:130px;
+	height:130px;
+	border:1px solid blue;
+	position:relative;
+}
+#smallBox{
+	position:absolute;
+}
+#floatBox{
+	width:60px;
+	height:40px;
+	background:red ;
+	position:absolute;
+	border:1px solid gray;
+	opacity: 0.2;
+	display:none;
+ }
+
+
+
+ 	#bigBox{
+ 		position:absolute;
+ 		top:0px;
+ 		left:200px;
+ 		width:369px;
+ 		height:246px;
+ 		border:1px solid blue;
+ 		overflow:hidden;
+ 		display: none; 
+ 	}
+ 	#bigImg{
+ 		position: absolute;
+ 	}
